@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<zia>
+  <User>nobody</User>
+  <Group>nobody</Group>
+  <Port>80</Port>
+  <ServerName>Ziahttp server</ServerName>
+  <DocumentRoot>./www/</DocumentRoot>
+  <DirectoryIndex>index.html index.php</DirectoryIndex>
+  <UserDir>public_html</UserDir>
+  <Timeout>3</Timeout>
+  <ErrorLog>logs/zia_error.log</ErrorLog>
+  <LogLevel>DEBUG</LogLevel>
+  <SSLCertificateFile>ssl/server.crt</SSLCertificateFile>
+  <SSLCertificateKeyFile>ssl/server.key</SSLCertificateKeyFile>
+  <UseSSL>1</UseSSL>
+  <ModulesDir>./modules/</ModulesDir>
+  <Include>mimetypes.conf</Include>
+</zia>

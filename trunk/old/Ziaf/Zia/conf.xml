@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<conf-server>
+  <Port>80</Port> 
+  <clients>120</clients> 
+  <threads>5</threads> 
+- <http>http.exe</http> 
+  <php>php.exe</php> 
+  </conf-server>
